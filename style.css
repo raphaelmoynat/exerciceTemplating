@@ -1,0 +1,10 @@
+.img{
+
+  height: 200px;
+  object-fit: cover;
+
+}
+
+.fond{
+  min-height: 100vh;
+}
