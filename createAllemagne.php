@@ -20,7 +20,7 @@ if(isset($_POST['modele']) &&
     isset($_POST['annee']) &&
     isset($_POST['puissance']) &&
     isset($_POST['image'])) {
-    $query = $pdoVoiture->prepare("INSERT INTO france SET modele = :modele, marque = :marque, annee = :annee, puissance = :puissance, image = :image");
+    $query = $pdoVoiture->prepare("INSERT INTO allemagne SET modele = :modele, marque = :marque, annee = :annee, puissance = :puissance, image = :image");
 
     $query->execute([
       "modele" => $modele,
@@ -30,7 +30,7 @@ if(isset($_POST['modele']) &&
       "image" => $image,
     ]);
 
-    header("Location: toutesLesVoitures.php");
+    header("Location: allemagne.php");
   }else{
     echo "Veuillez remplir tous les champs avec du texte.";
 
@@ -40,4 +40,4 @@ if(isset($_POST['modele']) &&
 
 }
 
-afficher("voitures/create", ["pageTitle"=> "nouvelle voiture"]);
+afficher("allemagne/create", ["pageTitle"=> "nouvelle voiture"]);

@@ -18,6 +18,7 @@ $pdoVoiture = new PDO ("mysql:host=$dbHost;dbname=$dbNameVoiture",$usernameVoitu
 );
 
 
+
 function afficher($nomDeTemplate, $donnees){
 
   ob_start();

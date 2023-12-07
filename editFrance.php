@@ -41,5 +41,5 @@ $query->execute([
 
 $voiture = $query->fetch();
 
-afficher('voitures/edit', ["voiture"=>$voiture,
+afficher('france/edit', ["voiture"=>$voiture,
   "pageTitle"=> $voiture['modele'] ]);
