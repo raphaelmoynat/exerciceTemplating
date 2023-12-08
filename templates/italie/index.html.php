@@ -11,9 +11,9 @@
         <p class='card-text'><?= $voiture['annee'] ?></p>
         <p class='card-text'><?= $voiture['puissance'] ?></p>
         <p class='card-text'><?= $voiture['pays'] ?></p>
-        <a href="showFrance.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">voir</a>
-        <a href="deleteFrance.php?id=<?= $voiture['id'] ?>" class="btn btn-danger">supprimer</a>
-        <a href="editFrance.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">editer</a>
+        <a href="showItalie.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">voir</a>
+        <a href="deleteItalie.php?id=<?= $voiture['id'] ?>" class="btn btn-danger">supprimer</a>
+        <a href="editItalie.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">editer</a>
 
       </div>
     </div>

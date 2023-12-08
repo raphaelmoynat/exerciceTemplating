@@ -7,9 +7,9 @@
       <p class='card-text'><?= $voiture['annee'] ?></p>
       <p class='card-text'><?= $voiture['puissance'] ?></p>
       <p class='card-text'><?= $voiture['pays'] ?></p>
-      <a href="france.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">retour</a>
-      <a href="deleteFrance.php?id=<?= $voiture['id'] ?>" class="btn btn-danger">supprimer</a>
-      <a href="editFrance.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">editer</a>
+      <a href="italie.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">retour</a>
+      <a href="deleteItalie.php?id=<?= $voiture['id'] ?>" class="btn btn-danger">supprimer</a>
+      <a href="editItalie.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">editer</a>
     </div>
   </div>
 </div>

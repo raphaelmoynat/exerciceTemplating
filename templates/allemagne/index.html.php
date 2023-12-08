@@ -10,6 +10,7 @@
         <p class='card-text'><?= $voiture['marque'] ?></p>
         <p class='card-text'><?= $voiture['annee'] ?></p>
         <p class='card-text'><?= $voiture['puissance'] ?></p>
+        <p class='card-text'><?= $voiture['pays'] ?></p>
         <a href="showAllemagne.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">voir</a>
         <a href="deleteAllemagne.php?id=<?= $voiture['id'] ?>" class="btn btn-danger">supprimer</a>
         <a href="editAllemagne.php?id=<?= $voiture['id'] ?>" class="btn btn-warning">editer</a>

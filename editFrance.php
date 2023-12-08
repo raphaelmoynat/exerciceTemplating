@@ -23,7 +23,7 @@ if(isset($_POST['modele']) &&
       "id" => $id,
     ]);
 
-    header("Location: toutesLesVoitures.php");
+    header("Location: france.php");
   }
 
 

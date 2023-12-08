@@ -22,18 +22,14 @@
           <a class="nav-link active" aria-current="page" href="france.php">France</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="allemagne.php">Allemagne</a>
+          <a class="nav-link active" href="allemagne.php">Allemagne</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="toutesLesQuiches.php">Italie</a>
+          <a class="nav-link active" href="italie.php">Italie</a>
 
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="createFrance.php">Créer Française</a>
-
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="createAllemagne.php">Créer Allemande</a>
+          <a class="nav-link active" href="create.php">Ajouter Voiture</a>
 
         </li>
       </ul>
