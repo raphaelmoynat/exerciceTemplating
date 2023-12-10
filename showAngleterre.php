@@ -1,4 +1,5 @@
 <?php require_once 'logique.php';
+require_once "debugmode.php";
 
 $idVoiture= $_GET['id'];
 

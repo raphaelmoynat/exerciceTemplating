@@ -1,4 +1,6 @@
 <?php require_once "logique.php";
+require_once "debugmode.php";
+
 if(isset($_POST['modele']) &&
   isset($_POST['marque']) &&
   isset($_POST['annee']) &&
