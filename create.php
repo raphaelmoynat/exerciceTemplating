@@ -61,6 +61,25 @@ if(isset($_POST['modele']) &&
     echo "Veuillez remplir tous les champs avec du texte.";
 
   }
+  if ($pays == "angleterre" or $pays == "Angleterre"){
+    $query = $pdoVoiture->prepare("INSERT INTO angleterre SET modele = :modele, marque = :marque, annee = :annee, puissance = :puissance, image = :image, pays = :pays");
+
+    $query->execute([
+      "modele" => $modele,
+      "marque" => $marque,
+      "annee" => $annee,
+      "puissance" => $puissance,
+      "image" => $image,
+      "pays" => $pays,
+    ]);
+
+    header("Location: angleterre.php");
+  }
+  else{
+    echo "Veuillez remplir tous les champs avec du texte.";
+
+  }
+
 
 
 

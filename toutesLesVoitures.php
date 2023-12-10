@@ -1,7 +1,7 @@
 <?php require_once 'logique.php';
 require_once "debugmode.php";
 
-$query = $pdoVoiture->query("SELECT * FROM france UNION ALL SELECT * FROM allemagne UNION ALL SELECT * FROM italie");
+$query = $pdoVoiture->query("SELECT * FROM france UNION ALL SELECT * FROM allemagne UNION ALL SELECT * FROM italie UNION ALL SELECT * FROM angleterre");
 
 $voitures = $query->fetchAll();
 
